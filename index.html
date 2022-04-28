@@ -3,26 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Periódico 6B</title>
-    <link rel="stylesheet" href="/css/master.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
     <header>
-      <div class="logo">
-      </div>
-      <h1>Periódico 6B</h1>
-      <nav>
-        <ul>
-          <li class="active"> <a href="#">Inicio</a></li>
-          <li> <a href="html/Conocimientos.html">Salón</a></li>
-          <li> <a href="html/proyectos.html">Colegio</a></li>
-          <li> <a href="html/contacto.html">Región</a></li>
-          <li> <a href="html/Conocimientos.html">Tecnología</a></li>
-          <li> <a href="html/proyectos.html">Farándula</a></li>
-          <li> <a href="html/contacto.html">Deportes</a></li>
-          <li> <a href="html/contacto.html">Juegos</a></li>
-        </ul>
-      </nav>
+      <section>
+        <article class="">
+          <div class="logo"></div>
+          <h1>Periódico 6B</h1>
+        </article>
+        
+              <nav>
+                <ul>
+                  <li class="active"> <a href="#">Inicio</a></li>
+                  <li> <a href="html/Conocimientos.html">Salón</a></li>
+                  <li> <a href="html/proyectos.html">Colegio</a></li>
+                  <li> <a href="html/contacto.html">Región</a></li>
+                  <li> <a href="html/Conocimientos.html">Tecnología</a></li>
+                  <li> <a href="html/proyectos.html">Farándula</a></li>
+                  <li> <a href="html/contacto.html">Deportes</a></li>
+                  <li> <a href="html/contacto.html">Juegos</a></li>
+                </ul>
+              </nav>
+      </section>
       <section>
         <article class="fecha">
           <span>fecha</span>
@@ -35,15 +40,15 @@
         </div>
       </section>
     </header>
-    <div class="container">
-      <main class="colunna-6">
+    <div class="contenedor">
+      <main class="colunna-9">
           <article class="carita">
             aqui va la carita
             <h2>WuW</h2>
           </article>
           <section>
             <article class="">
-              democarcia
+              <h3>Democarcia</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -53,7 +58,7 @@
 
             </article>
             <article class="">
-              democarcia
+              <h3>Democarcia</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -63,7 +68,7 @@
 
             </article>
             <article class="">
-              democarcia
+              <h3>Democarcia</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -72,7 +77,9 @@
              anim id est laborum.</p>
 
             </article>
-            <button type="button" name="noticias">Todas las noticias</button>
+            <form class="noticias" action="index.html" method="post">
+              <button type="button" name="noticias">Todas las noticias</button>
+            </form>
           </section>
       </main>
 
@@ -109,5 +116,31 @@
         </article>
       </section>
     </div>
+    <footer>
+      <div class="contenedor">
+        <section class="columna-9 contenedor-items">
+          <article class="item">
+            <div class="logo"></div>
+            <h4>Página Colegio</h4>
+          </article>
+          <article class="item">
+            <div class="logo"></div>
+            <h4>Página Colegio</h4>
+          </article>
+          <article class="item">
+            <div class="logo"></div>
+            <h4>Página Colegio</h4>
+          </article>
+        </section>
+        <section class="columna-3">
+          <p>Email: <a href="periodico@colegioufps.edu.co">periodico@colegioufps.edu.co</a> </p>
+          <p> Twitter: @periodicoufps</p>
+          <p>Av 20 N 12-34 Cúcuta</p>
+        </section>
+      </div>
+      <div class="autor">
+        <p>@jesuscriss301 2022</p>
+      </div>
+    </footer>
   </body>
 </html>
