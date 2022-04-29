@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <title>Periódico 6B</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/master.css">
 
-    <script type="text/javascript" src="js/fecha.js"></script>
-    <script type="text/javascript" src="js/funcionalidades.js"></script>
+    <script type="text/javascript" src="../js/fecha.js"></script>
+    <script type="text/javascript" src="../js/funcionalidades.js"></script>
   </head>
-  <body onload="cargarNoticias(), cargarfecha(),deportes(),tecnologias()">
-    <header class="contenedor">
-      <section class="columna-9">
+  <body onload="cargarNoticia6(), cargarfecha(),deportes(),tecnologias()">
+    <header>
+      <section>
         <article class="">
           <div class="logo"></div>
           <h1>Periódico 6B</h1>
@@ -31,7 +31,7 @@
                 </ul>
               </nav>
       </section>
-      <section class="columna-3">
+      <section >
         <article class="">
           <div class="" id="fecha-hoy"> fecha aqui</div>
         </article>
@@ -45,11 +45,8 @@
     </header>
     <div class="contenedor">
       <main class="colunna-9">
-          <article class="carita">
-            aqui va la carita
-            <h2>WuW</h2>
-          </article>
-          <section id="noticias-principales" >
+
+          <section id="noticia6" >
             <article class="" >
               <h3 >Democarcia</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -81,10 +78,6 @@
 
 
           </section>
-        </article>
-        <form class="noticias" action="index.html" method="post">
-          <button type="button" name="noticias">Todas las noticias</button>
-        </form>
       </main>
 
       <section class="colunna-3">
