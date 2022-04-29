@@ -17,10 +17,17 @@ function cargarNoticias()
 		for (i=0; i < 3; i++) {
 
 			//if (i==response.length) {break;}
-			articulos+=articulo.replaceAll("titulo",response[i].titulo).
-							replaceAll("categoria",response[i].categoria).
-							replaceAll("fecha",response[i].fecha).
-							replaceAll("@@",response[i].descripcion);
+			if (response[i].id == "1") {
+				articulo=articulo.replace("#","html/noticias.html");
+				articulo+="<form class='' action='html/noticias.html' method='post'>"+"\n"+
+				  				"  <input type='hidden' name='id' value='1'>"+"\n"+
+									"</form>"+"\n"+
+			}
+			articulos+=articulo.replace("titulo",response[i].titulo).
+							replace("categoria",response[i].categoria).
+							replace("fecha",response[i].fecha).
+							replace("@@",response[i].descripcion);
+
 		}
 
 		articulos=div+articulos+"\n</div>";
