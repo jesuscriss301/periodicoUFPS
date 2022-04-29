@@ -66,3 +66,23 @@ nav ul li a:hover {
 
 .active {
   background-color: darkgrey;
+}
+article p{
+
+  width: auto;
+max-width: 1000px;
+padding: 5px;
+margin-left: 20px;
+margin-right: 20px;
+border: solid #ddd 2px;
+}
+article img{
+
+}
+#deporte, #tecnologia{
+
+  border: solid #ddd 2px;
+  padding: 15px;
+  margin: 5px;
+  text-align: center;
+}
