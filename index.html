@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/master.css">
 
     <script type="text/javascript" src="js/fecha.js"></script>
-
+    <script type="text/javascript" src="js/funcionalidades.js"></script>
   </head>
-  <body onload="cargarfecha()">
+  <body onload="cargarNoticias(), cargarfecha()">
     <header>
       <section>
         <article class="">
@@ -49,7 +49,7 @@
             aqui va la carita
             <h2>WuW</h2>
           </article>
-          <section id="noticias-principales">
+          <section id="noticias-principales" >
             <article class="" >
               <h3 >Democarcia</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -57,7 +57,7 @@
               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
               dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-             anim id est laborum.</p>
+             anim id est laborum.</p><a href="#"></a>
 
             </article>
             <article class="">
@@ -79,19 +79,20 @@
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
              anim id est laborum.</p>
 
-            </article>
-            <form class="noticias" action="index.html" method="post">
-              <button type="button" name="noticias">Todas las noticias</button>
-            </form>
+
           </section>
+        </article>
+        <form class="noticias" action="index.html" method="post">
+          <button type="button" name="noticias">Todas las noticias</button>
+        </form>
       </main>
 
       <section class="colunna-3">
-        <article class="">
+        <article class="" id="deporte">
           <h3>Deportes</h3>
           <div class="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.</p>
+            <a href="#"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.</p></a>
           </div>
           <div class="">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
